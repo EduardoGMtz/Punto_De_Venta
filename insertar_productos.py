@@ -3,8 +3,6 @@ import sqlite3
 conexion = sqlite3.connect("pos.db")
 cursor = conexion.cursor()
 
-# Una vez agregados los productos, se pueden borrar de este código y si en un futuro es necesario agregar más, solo se agrega el nuevo producto
-
 productos = [
     ("035698745632", "Laptop HP", 15000.00, 5),
     ("258963147852", "Mouse Logitech", 500.00, 20),
